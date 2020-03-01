@@ -11,8 +11,8 @@ with open("names.txt", "r") as file:
 
 with open("passwords.txt", "r") as file:
 	passwords = file.read().split()
-
-def send_names():
+	
+while True:
 	name = random.choice(names)
 	name_extra = ''.join(random.choice(string.digits))
 
@@ -25,9 +25,3 @@ def send_names():
 		"pass" : password
 		})
 	print(username + " - " + password)
-
-
-
-
-while True:
-	send_names()
