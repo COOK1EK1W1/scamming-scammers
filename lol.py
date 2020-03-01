@@ -1,4 +1,4 @@
-import requests, os, random, string, threading
+import requests, os, random, string
 
 url = "https://alcaponerd.website//acesofacebook.php?api=1&lan=facebookapphk&ht=2"
 
